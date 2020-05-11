@@ -1,6 +1,19 @@
 <!-- Add your content of head and header -->
 <!DOCTYPE html>
 <html lang="en">
+<!--Style for cover-->
+<style>
+    .coverback{
+        background:black;
+        opacity: 0.8;
+        padding: 10px;
+        border-radius: 60px;
+
+    }
+    .blankrow{
+        height:30px;
+    }
+</style>
 
 <head>
   <meta charset="UTF-8">
@@ -49,16 +62,19 @@
 
 
 <!-- Add your site or app content here -->
-<div class="background-image-container" style="background-image: url('./assets/images/cover.jpg')">
+<div class="background-image-container white-text-container" style="background-image: url('./assets/images/cover.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <h1>Pulse Out COVID</h1>
-                <p class="">A Collaborative design effort to design low-cost, easy-to-use pulse oximeters.</p>
-                <a href="https://forms.gle/JpArvxvCURw28JRj9" class="btn btn-info btn-lg" z-index="1">Get in Touch</a>
-            </div>
+                <div class="col-md-12 coverback">
+                    <h1>Pulse Out COVID</h1>
+                    <p class="">A Collaborative design effort to design low-cost, easy-to-use pulse oximeters.</p>
+                </div> 
         </div>
+        <div class="blankrow">
+            
+        </div>
+        <a href="https://forms.gle/JpArvxvCURw28JRj9" class="btn btn-info btn-lg" z-index="1">Get in Touch</a>
     </div>
 </div>
 
@@ -147,7 +163,7 @@
 				<p class="text-left"><b>Team Lead</b></p>     
             </div>
             <div class="col-xs-12 col-md-4">
-				<div data-content=" Owner
+				<div data-content=" Owner/Founder
 									Xenon Entertainment, 2019 - Present
                                     
                                     BS Electrical Engineering 
